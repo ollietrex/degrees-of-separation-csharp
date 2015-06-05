@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo.v1.MonkeyService.Web", "Foo.v1.MonkeyService.Web\Foo.v1.MonkeyService.Web.csproj", "{A75CFDB7-2CF9-42F9-9E5C-36944BB88CCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{37EB90B6-4278-4517-B191-483A109DDFEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo.v1.MonkeyService.Api.ServiceInterface", "Foo.v1.MonkeyService.Api.ServiceInterface\Foo.v1.MonkeyService.Api.ServiceInterface.csproj", "{9610626B-57C0-46BA-A5FD-094D175CDA34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo.v1.MonkeyService.Api.ServiceModel", "Foo.v1.MonkeyService.Api.ServiceModel\Foo.v1.MonkeyService.Api.ServiceModel.csproj", "{176618F9-0D4C-47A5-A9BA-1D61BD20B987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo.v1.MonkeyService.Api.Tests", "Foo.v1.MonkeyService.Api.Tests\Foo.v1.MonkeyService.Api.Tests.csproj", "{ABC76CD0-A0A5-4D26-ADE6-5D3A4A46EFF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EE346F6B-F81C-4F0D-8802-EF21724860C7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A75CFDB7-2CF9-42F9-9E5C-36944BB88CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75CFDB7-2CF9-42F9-9E5C-36944BB88CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75CFDB7-2CF9-42F9-9E5C-36944BB88CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75CFDB7-2CF9-42F9-9E5C-36944BB88CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9610626B-57C0-46BA-A5FD-094D175CDA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9610626B-57C0-46BA-A5FD-094D175CDA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9610626B-57C0-46BA-A5FD-094D175CDA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9610626B-57C0-46BA-A5FD-094D175CDA34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176618F9-0D4C-47A5-A9BA-1D61BD20B987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176618F9-0D4C-47A5-A9BA-1D61BD20B987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176618F9-0D4C-47A5-A9BA-1D61BD20B987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176618F9-0D4C-47A5-A9BA-1D61BD20B987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC76CD0-A0A5-4D26-ADE6-5D3A4A46EFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC76CD0-A0A5-4D26-ADE6-5D3A4A46EFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC76CD0-A0A5-4D26-ADE6-5D3A4A46EFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC76CD0-A0A5-4D26-ADE6-5D3A4A46EFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9610626B-57C0-46BA-A5FD-094D175CDA34} = {37EB90B6-4278-4517-B191-483A109DDFEB}
+		{176618F9-0D4C-47A5-A9BA-1D61BD20B987} = {37EB90B6-4278-4517-B191-483A109DDFEB}
+		{ABC76CD0-A0A5-4D26-ADE6-5D3A4A46EFF6} = {37EB90B6-4278-4517-B191-483A109DDFEB}
+	EndGlobalSection
+EndGlobal
